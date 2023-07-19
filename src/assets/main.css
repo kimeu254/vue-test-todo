@@ -1,0 +1,20 @@
+a{text-decoration: none;}
+.container{margin: 0 20px;}
+.btn{border-radius: 100px; padding: 10px; cursor: pointer; color: white; border: none;}
+.btn-dark{background-color: black}
+.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); transition: 0.3s;}
+.card:hover{box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);}
+.card-container{padding: 2px 16px;}
+.deadline-box{padding: 7px; border-radius: 10px;}
+.white{color: white;}
+.success, .btn-success{background-color: green;}
+.info, .btn-info{background-color: skyblue;}
+.warning, .btn-warning{background-color: orange;}
+.danger, .btn-danger{background-color: red;}
+.center{display: flex; justify-content: center; align-items: center; min-height: 100vh;}
+.form-input{margin-bottom: 20px;}
+.form-label{color: gray;}
+.form-control{padding: 10px;}
+@media screen and (min-width: 960px) {
+  .container{margin: 0 100px;}
+}
